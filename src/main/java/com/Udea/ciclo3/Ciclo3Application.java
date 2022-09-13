@@ -1,8 +1,7 @@
 package com.Udea.ciclo3;
 
 
-import entidades.Empresa;
-import org.hibernate.annotations.GeneratorType;
+import com.Udea.ciclo3.entidades.Empresa;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
