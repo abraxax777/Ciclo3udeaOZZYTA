@@ -32,5 +32,13 @@ public class ServicioEmpresa {
         }
         return false;
     }
-    //metodo delete
+    //metodo delete para empresas basado en el id
+
+    public boolean deleteEmpresa(Integer id){
+        repositorioEmpresa.deleteById(id);
+        if(getEmpresaById(id)!=null){
+            return false;
+        }
+        return true;
+    }
 }
